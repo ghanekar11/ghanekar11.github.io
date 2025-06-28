@@ -1,0 +1,90 @@
+
+JSON Template:
+{
+    "paper_short_1":{
+        "title": "Paper Full Title",
+        // The author order should be preserved Use bhargav class for Bhargav Ghanekar
+        "authors": {
+            "Author Name 1": "author website link 1",
+            "Bhargav Ghanekar": "bhargav",
+            "Author Name 2": "author website link 2",
+            // Similar for other authors
+        },
+        "venue":[
+            "Venue Full Form",
+            "Venue Short Form",
+            "Venue year"
+        ],
+        "links":{
+            "Link Name 1": "link 1",
+            "Link Name 2": "link 2",
+            // Similar for other links
+        }, 
+		"thumbnail":{
+			"before_type": "e.g. png",
+			"after_type: "e.g. mp4",
+		},
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		}
+    },
+    // Continue for paper_short_2 and so on
+}
+
+HTML Snippet Template for each publication
+            <!-- paper_short_1 -->
+            <div class="row" onmouseout="paper_short_1_stop()" onmouseover="orca_start()" >
+            	<div class="col-md-2">
+            		<div class="one">
+                		<div class="two" id='paper_short_1_image'>
+							// If after_type == mp4
+							<video width="160" height="160" muted autoplay loop>
+                				<source src='images/paper_short_1_after.{after_type}' type="video/mp4" >
+                				Your browser does not support the video tag.
+                			</video>
+							// Else 
+                			<img src='images/paper_short_1_after.{after_type}' width="160" height="160" style="border-style: none">
+						</div>
+                		<img src='images/paper_short_1_before.{before_type}' width="160" height="160" style="border-style: none">
+              		</div>
+            	<script type="text/javascript">
+            		function paper_short_1_start() {
+                		document.getElementById('paper_short_1_image').style.opacity = "1";
+            		}
+
+            		function paper_short_1_stop() {
+                		document.getElementById('paper_short_1_image').style.opacity = "0";
+            		}
+            		paper_short_1_stop()
+            	</script>
+                </div>
+                <div class="col-md-9"  >
+					<div class="content-wrapper">
+						<div style="width:100%">
+							<span class="paper-title"><a target="_blank" href="link 1"> Paper Full Title </a></span><br>
+							<span class="author"><a target="_blank" href="author website link 1">Author Name 1</a></span>,
+							<span class="bhargav">Bhargav Ghanekar*</span>,
+							<span class="author"><a target="_blank" href="author website link 2">Author Name 2</a></span>,
+                            // Continue for other authors
+							<br>
+
+							<div class="row">
+								<div class="col-sm-10">
+									<font color="black"> Venue Full Form <span class="venue">Venue Short Form</span>, Venue year</font></a><br>
+
+									<font style="font-size: 14px">
+										<a target="_blank" href="link 1">[Link Name 1]</a>&nbsp;•
+										<a target="_blank" href="link 2">[Link Name 2]</a>&nbsp;•
+                                        // Continue for other links Not that the last link shouldn't have the dot in the end
+									</font>
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div><hr>
+            // Continue for each paper
+            // Note the tab spaces
+

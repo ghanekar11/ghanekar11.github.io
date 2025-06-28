@@ -1,0 +1,107 @@
+{
+    "mfcnet": {
+        "title": "Video-based Surgical Tool-tip and Keypoint Tracking using Multi-frame Context-driven Deep Learning Models",
+        "authors": {
+            "Bhargav Ghanekar": "bhargav",
+            "Lianne R. Johnson": "https://www.linkedin.com/in/lianne-r-johnson/",
+            "Jacob L. Laughlin": "https://mahilab.rice.edu/people/jacob-laughlin/",
+            "Marcia K. O'Malley": "https://mahilab.rice.edu/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/"
+        },
+        "venue": [
+            "Accepted at IEEE International Symposium on Biomedical Imaging (ISBI)",
+            "ISBI",
+            "2025"
+        ],
+        "links": {
+            "Paper": "https://ieeexplore.ieee.org/document/10980959/",
+            "Preprint": "https://arxiv.org/abs/2501.18361",
+            "Project Page": "https://shadowfax11.github.io/mfc_tracking/",
+            "Code": "https://github.com/shadowfax11/mfcnet-tracker/"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "Keypoint Tracking"
+        ],
+        "highlight": true
+    }, 
+    "cads": {
+        "title": "CADS: Coded Aperture Dual-Pixel Imaging for Passive RGB-D Imaging",
+        "authors": {
+            "Bhargav Ghanekar": "bhargav",
+            "Salman S. Khan": "https://siddiquesalman.github.io/",
+            "Pranav Sharma": "https://www.linkedin.com/in/pranav-sharma-a339251a0/",
+            "Shreyas Singh": "https://www.linkedin.com/in/shreyas-singh-571b2719a/",
+            "Vivek Boominathan": "https://vivekboominathan.com/",
+            "Kaushik Mitra": "https://www.ee.iitm.ac.in/kmitra/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/"
+        },
+        "venue": [
+            "Accepted at IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (main conference track)",
+            "CVPR",
+            "2024"
+        ],
+        "links": {
+            "Paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Ghanekar_Passive_Snapshot_Coded_Aperture_Dual-Pixel_RGB-D_Imaging_CVPR_2024_paper.html",
+            "Preprint": "https://arxiv.org/abs/2402.18102",
+            "Project Page": "https://shadowfax11.github.io/cads/",
+            "Code": "https://github.com/shadowfax11/cads/"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "Dual-Pixel Sensors",
+            "3D Sensing"
+        ],
+        "highlight": true
+    },
+    "ps2f": {
+        "title": "PS^2F: Polarized Spiral Point Spread Function for Single-Shot 3D Sensing",
+        "authors": {
+            "Bhargav Ghanekar": "bhargav",
+            "Vishwanath Saragadam": "https://vishwa91.github.io/",
+            "Dushyant Mehra": "",
+            "Anna-Karin Gustavsson": "https://gustavssonlab.rice.edu/",
+            "Aswin Sankaranarayanan": "https://imagesci.ece.cmu.edu/",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/"
+        },
+        "venue": [
+            "Accepted at IEEE International Conference on Computational Photography (ICCP) & IEEE TPAMI Special Issue",
+            "ICCP",
+            "2022"
+        ],
+        "links": {
+            "Paper": "https://ieeexplore.ieee.org/abstract/document/9869297",
+            "Code": "https://github.com/shadowfax11/ps2f"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "Polarization",
+            "3D Sensing"
+        ],
+        "highlight": true
+    }
+}
