@@ -203,7 +203,8 @@ topics = topic_html_dict.keys()
 topics_name_dict = {'Keypoint Tracking': 'Keypoint Tracking',
                     'Dual-Pixel Sensors': 'Dual-Pixel Sensors',
                     '3D Sensing': '3D Sensing',
-                    'Polarization': 'Polarization'}
+                    'Polarization': 'Polarization',
+                    'Remote Vital Sensing': 'Remote Vital Sensing'}
 for topic in topics:
     topic_html_content = []
     topic_html_content.append(f'<div id={topic}_pubs><h6>{topics_name_dict[topic]}</h6>\n')

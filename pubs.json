@@ -1,4 +1,40 @@
 {
+    "cogphys": {
+        "title": "CogPhys: Assessing Cognitive Load via Multimodal Remote and Contact-based Physiological Sensing",
+        "authors": {
+            "Anirudh Bindiganavale Harish": "",
+            "Peikun Guo": "",
+            "Bhargav Ghanekar": "bhargav",
+            "Diya Gupta": "",
+            "Akilesh Rajavenkatanarayan": "",
+            "Manoj Sharma": "",
+            "Maureen August": "",
+            "Akane Sano": "",
+            "Ashok Veeraraghavan": "https://computationalimaging.rice.edu/"
+        },
+        "venue": [
+            "Accepted at Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track",
+            "NeurIPS",
+            "2025"
+        ],
+        "links": {
+            "Paper": "https://openreview.net/forum?id=VJEcCMx16R",
+            "PDF": "https://openreview.net/pdf?id=VJEcCMx16R"
+        },
+        "thumbnail": {
+            "before_type": "png",
+            "after_type": "png"
+        },
+		"award":{
+			"award title": "",
+			"award desc": "",
+			"award link": ""
+		},
+        "topics":[
+            "Remote Vital Sensing"
+        ],
+        "highlight": true
+    },
     "mfcnet": {
         "title": "Video-based Surgical Tool-tip and Keypoint Tracking using Multi-frame Context-driven Deep Learning Models",
         "authors": {

@@ -14,7 +14,8 @@ const topics_name_dict = {
   'Keypoint Tracking': 'Keypoint Tracking',
   'Dual-Pixel Sensors': 'Dual-Pixel Sensors',
   '3D Sensing': '3D Sensing',
-  'Polarization': 'Polarization'
+  'Polarization': 'Polarization',
+  'Remote Vital Sensing': 'Remote Vital Sensing'
 };
 
 function parseQuery(query) {
@@ -34,7 +35,7 @@ function parseQuery(query) {
 
 function showPubs(id) {
   if (id == 0) {
-    fetch('../pubs_selected.html')
+    fetch('./pubs_selected.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('pubs').innerHTML = data;
@@ -53,7 +54,7 @@ function showPubs(id) {
       }
   });
   } else if (id == 1) {
-    fetch('../pubs.html')
+    fetch('./pubs.html')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('pubs').innerHTML = data;
@@ -81,7 +82,7 @@ function showPubs(id) {
     // document.getElementById('select0').style = '';
     // document.getElementById('select1').style = '';
     // _altmetric_embed_init();
-    fetch(`../pubs_by_topic_${id}.html`)
+    fetch(`./pubs_by_topic_${id}.html`)
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('pubs').innerHTML = data;

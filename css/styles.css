@@ -119,55 +119,9 @@ ol.intro {
   margin-bottom: 0px;
 }
 
-/* 
-/* open-sans-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/open-sans-v35-latin-regular.woff2') format('woff2'),
-       url('../fonts/open-sans-v35-latin-regular.woff') format('woff'),
-       url('../fonts/open-sans-v35-latin-regular.ttf') format('truetype');
-}
-/* open-sans-600 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/open-sans-v35-latin-600.woff2') format('woff2'),
-       url('../fonts/open-sans-v35-latin-600.woff') format('woff'),
-       url('../fonts/open-sans-v35-latin-600.ttf') format('truetype');
-}
-/* open-sans-700 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/open-sans-v35-latin-700.woff2') format('woff2'),
-       url('../fonts/open-sans-v35-latin-700.woff') format('woff'),
-       url('../fonts/open-sans-v35-latin-700.ttf') format('truetype');
-}
-/* roboto-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
-       url('../fonts/roboto-v30-latin-regular.woff') format('woff');
-}
-/* roboto-500 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
-       url('../fonts/roboto-v30-latin-500.woff') format('woff');
-} */
+/* Open Sans / Roboto @font-face rules removed: the font files were
+   never bundled in /fonts (only academicons are). The font-family
+   stacks fall back to Segoe UI / Arial / system sans-serif. */
 
 /* From Jon Barron template */
 .one {
